@@ -68,3 +68,12 @@ Vast requires a public/private key-pair to log into your gpu instance. This guid
         ```
 
 - **Success**: You are now connected to your Vast.ai instance. Enjoy your seamless and secure connection! :)
+
+- **Removing TMUX Interface**: By default vast ai uses tmux as interface, but we can remove it too. Use the following command, first instance is launched.
+      ```sh
+        touch ~/.no_auto_tmux
+      ```
+
+      ```sh
+        exit
+      ```
